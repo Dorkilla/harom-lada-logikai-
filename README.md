@@ -5,4 +5,4 @@ Arany: én rejtem a kincset.<br/> Ezüst: nem én rejtem a kincset. <br/>Bronz: 
 
 Szerintem a megoldás az arany láda.
 
-https://github.com/DDorka02/harom-lada-logikai-/blob/main/ladak.png
+![ladak](https://github.com/user-attachments/assets/d531c883-5d3c-49f0-81ae-cb3a0475c924)
