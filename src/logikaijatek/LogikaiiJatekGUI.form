@@ -27,14 +27,14 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
-                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblCim" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblEzust" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblBronz" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -43,19 +43,19 @@
               <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblArany" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                      <Component id="Aranybtn" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnArany" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="60" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-              <Component id="Ezustbtn" min="-2" max="-2" attributes="0"/>
+              <Component id="btnEzust" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
-              <Component id="Bronzbtn" min="-2" max="-2" attributes="0"/>
+              <Component id="btnBronz" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -64,18 +64,18 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel2" min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="lblCim" min="-2" pref="36" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" max="-2" attributes="0">
-                  <Component id="jLabel4" alignment="3" max="32767" attributes="0"/>
-                  <Component id="jLabel3" alignment="3" max="32767" attributes="0"/>
-                  <Component id="jLabel1" min="-2" pref="42" max="-2" attributes="0"/>
+                  <Component id="lblBronz" alignment="3" max="32767" attributes="0"/>
+                  <Component id="lblEzust" alignment="3" max="32767" attributes="0"/>
+                  <Component id="lblArany" min="-2" pref="42" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" max="-2" attributes="0">
-                  <Component id="Ezustbtn" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
-                  <Component id="Aranybtn" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
-                  <Component id="Bronzbtn" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="btnEzust" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="btnArany" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="btnBronz" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="28" max="32767" attributes="0"/>
           </Group>
@@ -83,27 +83,27 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="lblCim">
       <Properties>
         <Property name="text" type="java.lang.String" value="V&#xe1;laszd ki az egyiket! Csak az egyik mond igazat!"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="lblArany">
       <Properties>
         <Property name="text" type="java.lang.String" value="&#xc9;n rejtem a kincset"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="lblEzust">
       <Properties>
         <Property name="text" type="java.lang.String" value="Nem &#xe9;n rejtem a kincset!"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
+    <Component class="javax.swing.JLabel" name="lblBronz">
       <Properties>
         <Property name="text" type="java.lang.String" value="Az arany hazudik!"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Aranybtn">
+    <Component class="javax.swing.JButton" name="btnArany">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="10" green="b3" red="ea" type="rgb"/>
@@ -111,10 +111,10 @@
         <Property name="text" type="java.lang.String" value="Arany"/>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="AranybtnMouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnAranyMouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Ezustbtn">
+    <Component class="javax.swing.JButton" name="btnEzust">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="45" green="45" red="48" type="rgb"/>
@@ -123,10 +123,10 @@
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="EzustbtnMouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnEzustMouseClicked"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="Bronzbtn">
+    <Component class="javax.swing.JButton" name="btnBronz">
       <Properties>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="4d" green="6b" red="c5" type="rgb"/>
@@ -134,7 +134,7 @@
         <Property name="text" type="java.lang.String" value="Bronz"/>
       </Properties>
       <Events>
-        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BronzbtnMouseClicked"/>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnBronzMouseClicked"/>
       </Events>
     </Component>
   </SubComponents>

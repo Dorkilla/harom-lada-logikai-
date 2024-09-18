@@ -20,46 +20,46 @@ public class LogikaiiJatekGUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        Aranybtn = new javax.swing.JButton();
-        Ezustbtn = new javax.swing.JButton();
-        Bronzbtn = new javax.swing.JButton();
+        lblCim = new javax.swing.JLabel();
+        lblArany = new javax.swing.JLabel();
+        lblEzust = new javax.swing.JLabel();
+        lblBronz = new javax.swing.JLabel();
+        btnArany = new javax.swing.JButton();
+        btnEzust = new javax.swing.JButton();
+        btnBronz = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel2.setText("Válaszd ki az egyiket! Csak az egyik mond igazat!");
+        lblCim.setText("Válaszd ki az egyiket! Csak az egyik mond igazat!");
 
-        jLabel1.setText("Én rejtem a kincset");
+        lblArany.setText("Én rejtem a kincset");
 
-        jLabel3.setText("Nem én rejtem a kincset!");
+        lblEzust.setText("Nem én rejtem a kincset!");
 
-        jLabel4.setText("Az arany hazudik!");
+        lblBronz.setText("Az arany hazudik!");
 
-        Aranybtn.setForeground(new java.awt.Color(234, 179, 16));
-        Aranybtn.setText("Arany");
-        Aranybtn.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnArany.setForeground(new java.awt.Color(234, 179, 16));
+        btnArany.setText("Arany");
+        btnArany.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                AranybtnMouseClicked(evt);
+                btnAranyMouseClicked(evt);
             }
         });
 
-        Ezustbtn.setForeground(new java.awt.Color(72, 69, 69));
-        Ezustbtn.setText("Ezüst");
-        Ezustbtn.setToolTipText("");
-        Ezustbtn.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnEzust.setForeground(new java.awt.Color(72, 69, 69));
+        btnEzust.setText("Ezüst");
+        btnEzust.setToolTipText("");
+        btnEzust.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                EzustbtnMouseClicked(evt);
+                btnEzustMouseClicked(evt);
             }
         });
 
-        Bronzbtn.setForeground(new java.awt.Color(197, 107, 77));
-        Bronzbtn.setText("Bronz");
-        Bronzbtn.addMouseListener(new java.awt.event.MouseAdapter() {
+        btnBronz.setForeground(new java.awt.Color(197, 107, 77));
+        btnBronz.setText("Bronz");
+        btnBronz.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                BronzbtnMouseClicked(evt);
+                btnBronzMouseClicked(evt);
             }
         });
 
@@ -71,60 +71,60 @@ public class LogikaiiJatekGUI extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(61, 61, 61)
-                        .addComponent(jLabel2)
+                        .addComponent(lblCim)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(129, 129, 129)
-                        .addComponent(jLabel3)
+                        .addComponent(lblEzust)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel4)))
+                        .addComponent(lblBronz)))
                 .addContainerGap())
             .addGroup(layout.createSequentialGroup()
                 .addGap(13, 13, 13)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1)
+                        .addComponent(lblArany)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(14, 14, 14)
-                        .addComponent(Aranybtn)
+                        .addComponent(btnArany)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGap(9, 9, 9)
-                .addComponent(Ezustbtn)
+                .addComponent(btnEzust)
                 .addGap(68, 68, 68)
-                .addComponent(Bronzbtn)
+                .addComponent(btnBronz)
                 .addGap(18, 18, 18))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblCim, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE, false)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(lblBronz, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblEzust, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblArany, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE, false)
-                    .addComponent(Ezustbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Aranybtn, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Bronzbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnEzust, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnArany, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBronz, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(28, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void AranybtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_AranybtnMouseClicked
+    private void btnAranyMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAranyMouseClicked
         if (elsoKor) {
             JOptionPane.showMessageDialog(null, "Helytelen válasz, hazudtam!");
         } else if (masodikKor) {
             JOptionPane.showMessageDialog(null, "Talán majd legközelebb...!");
         }
-    }//GEN-LAST:event_AranybtnMouseClicked
+    }//GEN-LAST:event_btnAranyMouseClicked
 
-    private void EzustbtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_EzustbtnMouseClicked
+    private void btnEzustMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEzustMouseClicked
         if (elsoKor) {
         JOptionPane.showMessageDialog(null, "Helytelen válasz, hazudtam!");
     } else if (masodikKor) { 
@@ -137,9 +137,9 @@ public class LogikaiiJatekGUI extends javax.swing.JFrame {
             System.exit(0);
         }
     }
-    }//GEN-LAST:event_EzustbtnMouseClicked
+    }//GEN-LAST:event_btnEzustMouseClicked
 
-    private void BronzbtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BronzbtnMouseClicked
+    private void btnBronzMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBronzMouseClicked
         if (elsoKor) {
             JOptionPane.showMessageDialog(null, "Helyes válasz, igazat mondtam!");
 
@@ -156,7 +156,7 @@ public class LogikaiiJatekGUI extends javax.swing.JFrame {
         } else if (masodikKor) {
             JOptionPane.showMessageDialog(null, "Talán majd legközelebb...");
         }
-    }//GEN-LAST:event_BronzbtnMouseClicked
+    }//GEN-LAST:event_btnBronzMouseClicked
 
     /**
      * @param args the command line arguments
@@ -202,12 +202,12 @@ public class LogikaiiJatekGUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Aranybtn;
-    private javax.swing.JButton Bronzbtn;
-    private javax.swing.JButton Ezustbtn;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
+    private javax.swing.JButton btnArany;
+    private javax.swing.JButton btnBronz;
+    private javax.swing.JButton btnEzust;
+    private javax.swing.JLabel lblArany;
+    private javax.swing.JLabel lblBronz;
+    private javax.swing.JLabel lblCim;
+    private javax.swing.JLabel lblEzust;
     // End of variables declaration//GEN-END:variables
 }
